@@ -3,17 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TopHeroComponent } from './body/top-hero/top-hero.component';
-import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { SearchComponent } from './header/searchbar/search.component';
 import { BodyCardComponent } from './body/body-card/body-card.component';
+import { HeaderLayoutComponent } from './header/header-layout.component';
+import { NavLayoutComponent } from './header/navbar/nav-layout.component';
+import { NavMiddleComponent } from './header/navbar/nav-middle-component';
+import { NavRightComponent } from './header/navbar/nav-right.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavBarComponent,
     TopHeroComponent,
     SearchComponent,
-    BodyCardComponent
+    BodyCardComponent,
+    HeaderLayoutComponent,
+    NavLayoutComponent,
+    NavMiddleComponent,
+    NavRightComponent
   ],
   imports: [
     BrowserModule
