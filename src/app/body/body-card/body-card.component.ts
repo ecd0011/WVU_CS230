@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
     templateUrl: 'body-card.component.html'
 })
 export class BodyCardComponent{
-
+    btntxt = "Find your books"
 }

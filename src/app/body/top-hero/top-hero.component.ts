@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
     templateUrl: 'top-hero.component.html'
 })
 export class TopHeroComponent{
-
+    btntxt = "Get study support"
 }
