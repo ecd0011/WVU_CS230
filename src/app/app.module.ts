@@ -9,6 +9,8 @@ import { HeaderLayoutComponent } from './header/header-layout.component';
 import { NavLayoutComponent } from './header/navbar/nav-layout.component';
 import { NavMiddleComponent } from './header/navbar/nav-middle-component';
 import { NavRightComponent } from './header/navbar/nav-right.component';
+import { BodyLayoutComponent } from './body/body-layout.component';
+import { BTNComponent } from './body/btn.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NavRightComponent } from './header/navbar/nav-right.component';
     HeaderLayoutComponent,
     NavLayoutComponent,
     NavMiddleComponent,
-    NavRightComponent
+    NavRightComponent,
+    BodyLayoutComponent,
+    BTNComponent
   ],
   imports: [
     BrowserModule
