@@ -11,6 +11,13 @@ import { NavMiddleComponent } from './header/navbar/nav-middle-component';
 import { NavRightComponent } from './header/navbar/nav-right.component';
 import { BodyLayoutComponent } from './body/body-layout.component';
 import { BTNComponent } from './body/btn.component';
+import { TileLayoutComponent } from './body/multi-tile/tile-layout.component';
+import { TileComponent } from './body/multi-tile/tiles/tile.component';
+import { HwTileComponent } from './body/multi-tile/tiles/hw-tile-component';
+import { ExamTileComponent } from './body/multi-tile/tiles/exam-tile-component';
+import { TopicTileComponent } from './body/multi-tile/tiles/topic-tile-component';
+import { WritingTileComponent } from './body/multi-tile/tiles/writing-tile-component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +30,13 @@ import { BTNComponent } from './body/btn.component';
     NavMiddleComponent,
     NavRightComponent,
     BodyLayoutComponent,
-    BTNComponent
+    BTNComponent,
+    TileLayoutComponent,
+    TileComponent,
+    HwTileComponent,
+    ExamTileComponent,
+    TopicTileComponent,
+    WritingTileComponent
   ],
   imports: [
     BrowserModule
