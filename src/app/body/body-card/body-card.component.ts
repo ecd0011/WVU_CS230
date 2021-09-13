@@ -6,4 +6,5 @@ import { Component } from "@angular/core";
 })
 export class BodyCardComponent{
     btntxt = "Find your books"
+    smrtTxtbks = "The smartest way to rent or buy textbooks. Period."
 }
