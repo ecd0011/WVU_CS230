@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
     templateUrl: 'body-layout.component.html'
 })
 export class BodyLayoutComponent{
-
+    approval = "94% of Chegg customers say they get better grades when they use Chegg to understand their coursework"
 }
