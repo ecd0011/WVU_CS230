@@ -1,0 +1,32 @@
+.bgHero{
+    background-image: url(/assets/images/full-hero-lwc-XL.png); 
+    background-size:contain;
+    height:598px;
+    background-repeat: no-repeat;
+}
+
+.heroSm{
+    padding-left: 205px;
+    letter-spacing: 0.5px;
+}
+
+.heroLg{
+    padding-left: 205px;
+    font-weight: 800;
+    font-size: 2.85rem;
+}
+
+.courseHelp{
+    padding-top: 145px;
+    padding-left: 205px;
+    font-size: 1.125rem;
+}
+
+.pad13{
+    padding-top: 13px;
+}
+
+.heroBtn{
+    padding-left: 151px;
+    padding-top: 35px;
+}
