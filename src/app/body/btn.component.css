@@ -1,0 +1,7 @@
+.cheggBtn{
+    border-radius: 2rem; 
+    background-color: rgba(235,113,0,1);
+    border:unset;
+    font-size: 1.4rem;
+    box-shadow: none;
+}
