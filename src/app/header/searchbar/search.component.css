@@ -1,0 +1,9 @@
+.searchBdr{
+    border-color: rgba(235,113,0,1);
+    border-width: 2px;
+}
+
+.searchBtn{
+    background-color:rgba(235,113,0,1); 
+    box-shadow: none;
+}
