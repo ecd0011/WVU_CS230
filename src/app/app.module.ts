@@ -17,6 +17,7 @@ import { HwTileComponent } from './body/multi-tile/tiles/hw-tile-component';
 import { ExamTileComponent } from './body/multi-tile/tiles/exam-tile-component';
 import { TopicTileComponent } from './body/multi-tile/tiles/topic-tile-component';
 import { WritingTileComponent } from './body/multi-tile/tiles/writing-tile-component';
+import { StudyMenuComponent } from './header/navbar/study-menu.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { WritingTileComponent } from './body/multi-tile/tiles/writing-tile-compo
     HwTileComponent,
     ExamTileComponent,
     TopicTileComponent,
-    WritingTileComponent
+    WritingTileComponent,
+    StudyMenuComponent
   ],
   imports: [
     BrowserModule
