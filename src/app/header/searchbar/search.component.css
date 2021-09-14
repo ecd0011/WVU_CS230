@@ -1,3 +1,5 @@
+/* NOTICE: CSS is used in place of Bootstrap when a finer precision is needed */
+
 .searchBdr{
     border-color: rgba(235,113,0,1);
     border-width: 2px;
