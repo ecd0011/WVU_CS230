@@ -1,21 +1,17 @@
-<div class="d-flex align-items-center">
+<div class="d-flex align-items-center ">
     <!-- Books Dropdown -->
     <div class="dropdown px-3">
         <!-- Button -->
-        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink"
-            role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-50,15">
+        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-50,15">
             Books
         </a>
         <!-- Menu -->
-        <ul class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink" style="padding-top: 15px; padding-bottom: 15px;">
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px; padding-right: 9rem;" href="#">Rent/Buy</a></li>
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px;" href="#">Read</a></li>
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px;" href="#">Return</a></li>
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px;" href="#">Sell</a></li>
+        <ul class="dropdown-menu shadow-lg navpad" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item dropbtn-pad" style="padding-right: 9rem;" href="#">Rent/Buy</a></li>
+            <li><a class="dropdown-item dropbtn-pad" href="#">Read</a></li>
+            <li><a class="dropdown-item dropbtn-pad" href="#">Return</a></li>
+            <li><a class="dropdown-item dropbtn-pad" href="#">Sell</a></li>
         </ul>
 
     </div>
@@ -23,73 +19,13 @@
     <!-- Study Dropdown-->
     <div class="dropdown px-3">
         <!-- Button -->
-        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink"
-            role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-150,15">
+        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-180,15">
             Study
         </a>
         <!-- Menu -->
-        <div class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink">
-            <div class="container-md dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white disabled">
-                    <a class="dropdown-item" href="#">Tasks</a>
-                </button>
-                <button type="button" class="btn btn-white disabled">
-                    <a class="dropdown-item" href="#">Tools</a>
-                </button>
-            </div>
-            <li>
-                <hr class="dropdown-divider">
-            </li>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Homework Help</a>
-                </button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Expert Q&A</a>
-                </button>
-            </div>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Exam prep</a>
-                </button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Textbook solutions</a>
-                </button>
-            </div>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Understanding a topic</a>
-                </button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Math Solver</a>
-                </button>
-            </div>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Writing & citations</a>
-                </button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Citations</a>
-                </button>
-            </div>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white disabled"></button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Plagiarism checker</a>
-                </button>
-            </div>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white disabled"></button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Grammar checker</a>
-                </button>
-            </div>
-            <div class="dropdown-header d-flex justify-content-between">
-                <button type="button" class="btn btn-white disabled"></button>
-                <button type="button" class="btn btn-white">
-                    <a class="dropdown-item" href="#">Expert proofreading</a>
-                </button>
-            </div>
+        <div class="dropdown-menu shadow-lg" aria-labelledby="dropdownMenuLink" style="width: 475px;">
+            <app-study-menu></app-study-menu>
         </div>
 
     </div>
@@ -97,24 +33,20 @@
     <!-- Career Dropdown -->
     <div class="dropdown px-3 py-3">
         <!-- Button -->
-        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink"
-            role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-70,15">
+        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-70,15">
             Career
         </a>
         <!-- Menu -->
-        <ul class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink" style="padding-top: 15px; padding-bottom: 15px;">
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px; padding-right: 7.4rem;" href="#">Bootcamps</a></li>
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px;" href="#">Internships</a></li>
-            <li><a class="dropdown-item" style="padding-top: 12px; padding-bottom: 12px;
-                padding-left: 30px;" href="#">Career advice</a></li>
+        <ul class="dropdown-menu shadow-lg careerMenu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item careerItem" style="padding-right: 7.4rem;" href="#">Bootcamps</a></li>
+            <li><a class="dropdown-item careerItem" href="#">Internships</a></li>
+            <li><a class="dropdown-item careerItem" href="#">Career advice</a></li>
         </ul>
 
     </div>
 
     <!-- Life Button -->
-    <button type="button" class="btn btn-white text-dark fw-bold px-3 py-3" style="box-shadow: none; font-size: 15px;
-    font-weight: 750;">Life</button>
+    <button type="button" class="btn btn-white text-dark fw-bold px-3 py-3 nav-btn">Life</button>
 
 </div>
