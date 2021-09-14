@@ -1,0 +1,24 @@
+.hereTxt{
+    font-size: 47px;
+    font-weight: 800;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.pr{
+    padding-right: 11px;
+}
+
+.pl{
+    padding-left: 11px;
+}
+
+.pTop{
+    padding-top: 55px;
+}
+
+.prices{
+    padding-top: 2.02rem;
+    font-size: 23px;
+    padding-bottom: 50px;
+}
