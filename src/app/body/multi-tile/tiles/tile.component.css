@@ -1,0 +1,39 @@
+br.false {
+    display: none;
+}
+p.true{
+    padding-top: 23px;
+}
+p.false{
+    padding-top: 7px;
+}
+
+.tile{
+    padding:0px;
+    width:284px;
+}
+
+.lrgTxt{
+    font-size: 1.85rem;
+    font-weight: 800;
+    padding-top: 23px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.smTxt{
+    font-size: 0.94rem;
+    padding-right: 1.85rem;
+    padding-left: 1.85rem;
+    padding-bottom: 10px;
+    line-height: 19px;
+}
+
+.claimer{
+    font-size: 10px;
+    vertical-align: 3px;
+    color: black; 
+    text-decoration: none;
+    font-weight:350;
+}

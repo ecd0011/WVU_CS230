@@ -1,24 +1,11 @@
-<style>
-    br.false {
-        display: none;
-    }
-    p.true{
-        padding-top: 23px;
-    }
-    p.false{
-        padding-top: 7px;
-    }
-</style>
-
-<div class="container border border-secondary" style="padding:0px; width:284px;">
+<div class="container border border-secondary tile">
     <img src={{tileImage}} alt="" width="282" height="215" class="d-block mx-auto">
     <div>
-        <h2 class="text-center" style="font-size: 1.85rem; font-weight: 800; padding-top: 23px; margin-bottom: 16px; padding-inline: 8px;">
+        <h2 class="text-center lrgTxt">
             {{tileLrgtxt}}</h2>
-        <p class="text-center {{tileBrk}}" style="font-size: 0.94rem; padding-inline: 1.85rem; padding-bottom: 10px; line-height: 19px;">
+        <p class="text-center {{tileBrk}} smTxt">
             <br class={{tileBrk}}>
-            {{tileSmltxt}}<a style="font-size: 10px; vertical-align: 3px; color: black; 
-            text-decoration: none; font-weight:350" href="#">{{tileDsclmr}}</a>
+            {{tileSmltxt}}<a class="claimer" href="#">{{tileDsclmr}}</a>
         </p>
     </div>
 </div>
