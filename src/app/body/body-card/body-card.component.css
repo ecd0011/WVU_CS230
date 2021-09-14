@@ -1,0 +1,38 @@
+.cardBg{
+    background-image:url(/assets/images/panel-books-XL.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 560px;
+}
+
+.contPad{
+    padding-left: 1.5rem;
+}
+
+.discText{
+    font-size: 1rem;
+    vertical-align: 20px;
+    color: inherit; 
+    text-decoration: none;
+    font-weight:350;
+}
+
+.bigText{
+    padding-left: 547px;
+    font-weight: 700
+}
+
+.pTop{
+    padding-top: 63px;
+}
+
+.smText{
+    padding-left: 547px;
+    padding-top: 17px;
+    letter-spacing: 0.5px;
+}
+
+.btnPad{
+    padding-left: 547px;
+    padding-top: 35px;
+}
