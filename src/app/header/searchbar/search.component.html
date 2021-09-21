@@ -1,15 +1,18 @@
 <!-- Search Bar -->
-<nav class="navbar navbar-light bg-white mb-3 pe-2" style="padding-top: 75px; padding-bottom: 11px;">
-    <form class="container" style="width:550px;">
+<nav class={{searchClass}} style="padding-top: 75px; padding-bottom: 11px;">
+    <form class="container wholeBdr" style={{searchWidth}}>
         <div class="input-group">
             <!-- Search Bar -->
-            <input type="text" class="form-control shadow-none searchBdr" placeholder="Find books, solutions, and more..."
-                aria-label="Search" aria-describedby="basic-addon1">
-
-            <!-- Search Button -->
-            <button type="button" class="btn text-white fw-bold searchBdr searchBtn">
-                Search
-            </button>
+            <div class="container">
+                <div class="row">
+                    <input type="text" class="form-control shadow-none searchBdr col search"
+                        placeholder={{searchText}} aria-label="Search"
+                        aria-describedby="basic-addon1">
+                    <button type="button" class="btn text-white fw-bold searchBtn col-2">
+                        Search
+                    </button>
+                </div>
+            </div>
         </div>
     </form>
 </nav>

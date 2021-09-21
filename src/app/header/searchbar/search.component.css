@@ -1,11 +1,47 @@
 /* NOTICE: CSS is used in place of Bootstrap when a finer precision is needed */
 
 .searchBdr{
-    border-color: rgba(235,113,0,1);
-    border-width: 2px;
+    border-color: transparent;
+    border-right: transparent;
+    height: 40px;
 }
 
 .searchBtn{
-    background-color:rgba(235,113,0,1); 
+    background-color:rgba(235,113,4,1); 
     box-shadow: none;
+    font-size:18px;
+    width: 90px;
+    height: 40px;
+    padding-top: 2px;
+}
+
+.searchBtn:hover{
+    background-color:rgba(228,88,0,1); 
+    box-shadow: none;
+    font-size:18px;
+    width: 90px;
+    height: 40px;
+    padding-top: 2px;
+}
+
+.wholeBdr{
+    border: solid rgba(246,202,89,1); 
+    padding-left: 2px; 
+    padding-right: 2px; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    border-width: 3px; 
+    border-radius: 4px;
+    background: white;
+}
+
+.wholeBdr:hover, .wholeBdr:focus-within{
+    border: solid rgba(235,113,0,1); 
+    padding-left: 2px; 
+    padding-right: 2px; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    border-width: 3px; 
+    border-radius: 4px;
+    background: white;
 }
