@@ -1,14 +1,14 @@
-<div class="d-flex align-items-center ">
+<div class="d-flex align-items-center">
     <!-- Books Dropdown -->
     <div class="dropdown px-3">
         <!-- Button -->
-        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-50,15">
+        <a class="dropdown-toggle text-dark text-decoration-none" routerLink="/books" id="dropdownNavLink" role="button"
+            aria-expanded="false">
             Books
         </a>
         <!-- Menu -->
-        <ul class="dropdown-menu shadow-lg navpad" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item dropbtn-pad" style="padding-right: 9rem;" href="#">Rent/Buy</a></li>
+        <ul class="dropdown-menu shadow-lg navpad booksMenu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item dropbtn-pad" href="#">Rent/Buy</a></li>
             <li><a class="dropdown-item dropbtn-pad" href="#">Read</a></li>
             <li><a class="dropdown-item dropbtn-pad" href="#">Return</a></li>
             <li><a class="dropdown-item dropbtn-pad" href="#">Sell</a></li>
@@ -19,12 +19,12 @@
     <!-- Study Dropdown-->
     <div class="dropdown px-3">
         <!-- Button -->
-        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-180,15">
+        <a class="dropdown-toggle text-dark text-decoration-none" routerLink="/study" id="dropdownNavLink" role="button"
+            aria-expanded="false">
             Study
         </a>
         <!-- Menu -->
-        <div class="dropdown-menu shadow-lg" aria-labelledby="dropdownMenuLink" style="width: 475px;">
+        <div class="dropdown-menu shadow-lg study-menu" aria-labelledby="dropdownMenuLink" style="width: 475px;">
             <app-study-menu></app-study-menu>
         </div>
 
@@ -33,13 +33,13 @@
     <!-- Career Dropdown -->
     <div class="dropdown px-3 py-3">
         <!-- Button -->
-        <a class="dropdown-toggle text-dark text-decoration-none" href="#" id="dropdownNavLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="-70,15">
+        <a class="dropdown-toggle text-dark text-decoration-none" routerLink="/career" id="dropdownNavLink" role="button"
+            aria-expanded="false">
             Career
         </a>
         <!-- Menu -->
         <ul class="dropdown-menu shadow-lg careerMenu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item careerItem" style="padding-right: 7.4rem;" href="#">Bootcamps</a></li>
+            <li><a class="dropdown-item careerItem" href="#">Bootcamps</a></li>
             <li><a class="dropdown-item careerItem" href="#">Internships</a></li>
             <li><a class="dropdown-item careerItem" href="#">Career advice</a></li>
         </ul>
@@ -47,6 +47,6 @@
     </div>
 
     <!-- Life Button -->
-    <button type="button" class="btn btn-white text-dark fw-bold px-3 py-3 nav-btn">Life</button>
+    <button type="button" routerLink="/life" class="btn btn-white text-dark fw-bold px-3 py-3 nav-btn">Life</button>
 
 </div>

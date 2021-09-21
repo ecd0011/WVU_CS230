@@ -26,6 +26,7 @@
 .borderSpace{
     border-radius: 0px;
     margin-top: -1px;
+    border-left: 1px solid #dee2e6;
 }
 
 .borderStart {
@@ -46,6 +47,7 @@
 .borderEnd {
     position: relative;
     padding: 10px 20px;
+    border-radius: 0px;
     background-color: #EEEEEE;
 }
   
@@ -54,7 +56,8 @@
     position: absolute;
     left: -1px;
     top: 0%;
-    height: 60%;
+    height: 70%;
+    margin-top: -1px;
     border-left: 1px solid #dee2e6;
 }
 
@@ -67,11 +70,6 @@
     padding-top: 12px; 
     padding-bottom: 12px;
     padding-left: 30px;
-}
-
-.careerMenu{
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .logoCol{
@@ -97,4 +95,45 @@
     padding-right: 10rem;
     font-size: 18px;
     padding-top:6px; 
+}
+
+.dropdown-menu {
+    margin-top: 13px;
+    transform: translateX(-60px);
+
+}
+
+.study-menu{
+    transform: translateX(-180px);
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display:block;
+    margin-top:0px;
+}
+
+.dropdown .dropdown-item:hover{
+    background:white;
+    font-weight: 600;
+}
+
+.booksMenu{
+    width: 235px;
+}
+
+.careerMenu{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 245px;
+}
+
+.avail:hover{
+    font-weight:600;
+}
+
+.navBtnBdr:hover{
+    border-bottom: 2px solid rgba(233,112,6,1);
+    border-width: 4px;
+    
 }
