@@ -1,0 +1,42 @@
+.bgHero{
+    background-image: url(/assets/images/books-hero.png); 
+    background-size:contain;
+    height:598px;
+    background-repeat: no-repeat;
+    margin-top: 72px;
+}
+
+.discText{
+    font-size: 1rem;
+    vertical-align: 20px;
+    color: inherit; 
+    text-decoration: none;
+    font-weight:350;
+}
+
+.bigText{
+    font-weight: 735;
+
+}
+
+.largeCont{
+    width: 650px;
+    margin-left: 190px;
+    margin-top: 125px;
+}
+
+.smallCont{
+    width: 625px;
+    margin-left: 205px;
+    padding-left:0px;
+    padding-top:18px;
+}
+
+.smText{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.search{
+    transform: translateX(-208px) translateY(-44px);
+}
