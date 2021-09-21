@@ -1,0 +1,40 @@
+.bgHero{
+    background-image: url(/assets/images/life-hero.jpeg); 
+    background-size:contain;
+    height:598px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.bigText{
+    padding-left: 547px;
+    font-weight: 700
+}
+
+.largeCont{
+    width: 70rem;
+    margin-left: 56px;
+    margin-top: 9px;
+}
+
+.coming-soon{
+    padding-top: 152px;
+    padding-left: 615px;
+}
+
+.coming-text{
+    font-weight: 650;
+    font-size: 18px;
+}
+
+.smallCont{
+    width: 600px;
+    margin-left: 616px;
+    padding-left:0px;
+    padding-top:18px;
+}
+
+.smText{
+    font-size: 25px;
+    font-weight: 300;
+}
