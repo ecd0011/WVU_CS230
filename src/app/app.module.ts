@@ -23,6 +23,10 @@ import { BooksComponent } from './pages/books/books.component';
 import { StudyComponent } from './pages/study/study.component';
 import { CareerComponent } from './pages/career/career.component';
 import { LifeComponent } from './pages/life/life.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BooksHeroComponent } from './pages/books/books-hero.component';
+import { LifeHeroComponent } from './pages/life/life-hero.component';
+import { StudyHeroComponent } from './pages/study/study-hero.component';
 
 
 @NgModule({
@@ -48,10 +52,14 @@ import { LifeComponent } from './pages/life/life.component';
     BooksComponent,
     StudyComponent,
     CareerComponent,
-    LifeComponent
+    LifeComponent,
+    BooksHeroComponent,
+    LifeHeroComponent,
+    StudyHeroComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
