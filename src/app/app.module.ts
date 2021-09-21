@@ -18,6 +18,11 @@ import { ExamTileComponent } from './body/multi-tile/tiles/exam-tile-component';
 import { TopicTileComponent } from './body/multi-tile/tiles/topic-tile-component';
 import { WritingTileComponent } from './body/multi-tile/tiles/writing-tile-component';
 import { StudyMenuComponent } from './header/navbar/study-menu.component';
+import { HomeComponent } from './pages/home/home.component';
+import { BooksComponent } from './pages/books/books.component';
+import { StudyComponent } from './pages/study/study.component';
+import { CareerComponent } from './pages/career/career.component';
+import { LifeComponent } from './pages/life/life.component';
 
 
 @NgModule({
@@ -38,7 +43,12 @@ import { StudyMenuComponent } from './header/navbar/study-menu.component';
     ExamTileComponent,
     TopicTileComponent,
     WritingTileComponent,
-    StudyMenuComponent
+    StudyMenuComponent,
+    HomeComponent,
+    BooksComponent,
+    StudyComponent,
+    CareerComponent,
+    LifeComponent
   ],
   imports: [
     BrowserModule
