@@ -1,0 +1,18 @@
+/* NOTICE: CSS is used in place of Bootstrap when a finer precision is needed */
+
+.hereTxt{
+    font-size: 47px;
+    font-weight: 800;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.pTop{
+    padding-top: 55px;
+}
+
+.prices{
+    padding-top: 2.02rem;
+    font-size: 23px;
+    padding-bottom: 50px;
+}

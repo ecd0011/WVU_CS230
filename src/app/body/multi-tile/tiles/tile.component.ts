@@ -7,17 +7,17 @@ import { Component, Input } from "@angular/core";
 })
 export class TileComponent{
     @Input()
-    tileImage!: string;
+    image!: string;
 
     @Input()
-    tileLrgtxt!: string;
+    lrgTxt!: string;
 
     @Input()
-    tileSmltxt!: string;
+    smlTxt!: string;
 
     @Input()
-    tileDsclmr!: string;
+    disclaimer!: string;
 
     @Input()
-    tileBrk: string = "false";
+    brk!: string;
 }
