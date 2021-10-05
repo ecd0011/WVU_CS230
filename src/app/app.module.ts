@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { TopHeroComponent } from './body/top-hero/top-hero.component';
@@ -23,6 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BooksHeroComponent } from './pages/books/books-hero.component';
 import { LifeHeroComponent } from './pages/life/life-hero.component';
 import { StudyHeroComponent } from './pages/study/study-hero.component';
+import { UserInfoComponent } from './body/user-info.component';
 
 
 @NgModule({
@@ -47,11 +49,13 @@ import { StudyHeroComponent } from './pages/study/study-hero.component';
     LifeComponent,
     BooksHeroComponent,
     LifeHeroComponent,
-    StudyHeroComponent
+    StudyHeroComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
