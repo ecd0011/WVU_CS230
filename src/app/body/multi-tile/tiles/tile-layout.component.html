@@ -2,9 +2,11 @@
 
 
 <div class="d-flex justify-content-center">
-    <div *ngFor="let tile of tiles">
-        <app-tile image={{tile.image}} lrgTxt={{tile.lrgTxt}} smlTxt={{tile.smlTxt}} 
-        disclaimer={{tile.disclaimer}} brk={{tile.brk}}></app-tile>
+    <div *ngFor="let tile of tilesArray">
+        <div *ngIf="tile != undefined">
+            <app-tile image={{tile.image}} lrgTxt={{tile.largeTxt}} smlTxt={{tile.smallTxt}}
+                disclaimer={{tile.disclaimer}} brk={{tile.break}}></app-tile>
+        </div>
     </div>
 </div>
 
