@@ -100,7 +100,6 @@
 .dropdown-menu {
     margin-top: 13px;
     transform: translateX(-60px);
-
 }
 
 .study-menu{
@@ -121,6 +120,11 @@
 
 .booksMenu{
     width: 235px;
+}
+
+.sign-in{
+    transform: translateX(-300px);
+    width: 350px;
 }
 
 .careerMenu{
