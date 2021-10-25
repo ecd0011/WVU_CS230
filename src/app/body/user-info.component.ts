@@ -12,7 +12,7 @@ export class UserInfoComponent implements OnInit{
     constructor(private userInfoService: UserInfoService){
     }
     ngOnInit(): void {
-        console.log("Registering showUserInfo as a subscriber");
+        console.log("Registering as a subscriber");
         this.showUserInfo();
     }
 

@@ -113,6 +113,7 @@
     margin-top:0px;
 }
 
+
 .dropdown .dropdown-item:hover{
     background:white;
     font-weight: 600;
@@ -122,8 +123,8 @@
     width: 235px;
 }
 
-.sign-in{
-    transform: translateX(-300px);
+.sign-up{
+    transform: translateX(-150px);
     width: 350px;
 }
 
@@ -141,4 +142,25 @@
     border-bottom: 2px solid rgba(233,112,6,1);
     border-width: 4px;
     
+}
+
+.sign-up-btn{
+    font-weight: 300;
+}
+
+.signupBtn{
+    border-radius: 2rem; 
+    background-color: rgba(235,113,0,1);
+    border:unset;
+    font-size: 1.2rem;
+    box-shadow: none;
+}
+
+.signupBtn:active{
+    box-shadow: none;
+}
+
+.dropdown-menu:focus-within {
+    display:block;
+    margin-top:0px;
 }

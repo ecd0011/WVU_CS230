@@ -25,6 +25,7 @@ import { BooksHeroComponent } from './pages/books/books-hero.component';
 import { LifeHeroComponent } from './pages/life/life-hero.component';
 import { StudyHeroComponent } from './pages/study/study-hero.component';
 import { UserInfoComponent } from './body/user-info.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { UserInfoComponent } from './body/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
