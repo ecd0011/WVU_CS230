@@ -7,3 +7,7 @@
     font-size: 1.4rem;
     box-shadow: none;
 }
+
+.cheggBtn:active{
+    box-shadow: none;
+}
