@@ -26,6 +26,8 @@ import { LifeHeroComponent } from './pages/life/life-hero.component';
 import { StudyHeroComponent } from './pages/study/study-hero.component';
 import { UserInfoComponent } from './body/user-info.component';
 import { FormsModule } from '@angular/forms';
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
 
 
 @NgModule({
@@ -57,7 +59,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig, 'chegg-app')
   ],
   providers: [],
   bootstrap: [AppComponent]
