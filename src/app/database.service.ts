@@ -16,7 +16,7 @@ export class DatabaseService{
         this.items.subscribe((data: any[]) => {
             console.log("Data received");
             for (let item of data){
-                console.log;
+                console.log(item);
             }
         })
     }
